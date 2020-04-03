@@ -638,7 +638,7 @@ body {
   color: #E3B873;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1285px) {
   html {
     font-size: 12px;
   }
@@ -660,6 +660,9 @@ body {
 }
 
 @media screen and (max-width: 570px) {
+  .logo {
+    font-size: 1rem;
+  }
   .contacts__phone {
     margin-right: 0;
     color: #ffffff;
@@ -669,20 +672,21 @@ body {
     display: none;
   }
   .hero__text {
-    font-size: 1.28rem;
+    font-size: 1.5rem;
     margin-bottom: 2.28rem;
   }
   .hero__button {
     display: block;
     min-width: 24.18rem;
     margin-bottom: 1.86rem;
+    font-size: 1.08rem;
   }
   .hero__scroll-down {
     display: none;
   }
   .title {
     max-width: 24.28rem;
-    font-size: 1.642rem;
+    font-size: 1.9rem;
     line-height: 132.83%;
   }
 }
