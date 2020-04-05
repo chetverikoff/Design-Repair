@@ -14,30 +14,64 @@
       margin-left: 0
 @media screen and ( max-width: 570px )
   .logo
-    font-size: 1rem
+    font-size: 0.94rem
+    margin-left: -10px
   .contacts
     &__phone
       margin-right: 0
+      font-size: 1.04rem
       color: $light
       text-decoration: none
     &__button
       display: none
+  .menu
+    &__contacts
+      margin-right: -10px
   .hero
+    &__content
+      margin-top: 1.6rem
+      margin-bottom: 0rem
+    &__title
+      margin-left: -0.8rem
     &__text
-      font-size: 1.5rem
-      margin-bottom: 2.28rem
+      position: relative
+      top: -1.5px 
+      max-width: 325px
+      margin-bottom: 32px
+      margin-top: 16px      
+      margin-left: -0.8rem
+      font-size: 1.53rem      
+      line-height: 135.84%
     &__button
-      display: block
-      min-width: 24.18rem
-      margin-bottom: 1.86rem
-      font-size: 1.08rem
+      display: inline-block
+      min-width: 343px
+      margin-left: -0.8rem
+      margin-bottom: 27px
+      font-family: FuturaDemiC      
+  .button
+    &--primary
+      padding: 20px 65px 19px 69px
+      font-size: 1.05rem 
+      overflow:hidden
+      // opacity: 0
+    &--outline   
+      display: none   
+      padding: 19px 37px 19px 43px
+      font-size: 1.03rem
+      opacity: 0
+    &--opacity    
+      opacity: 1
     &__scroll-down
       display: none
   .title
     max-width: 24.28rem
-    font-size: 1.9rem
+    margin-top: 24px
+    font-size: 1.95rem
     line-height: 132.83%
+    &--primary
+      margin-left: -0.125rem
 @media screen and ( max-height: 550px )
   .hero
     &__scroll-down
       display: none
+
