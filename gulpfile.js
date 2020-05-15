@@ -1,4 +1,4 @@
-const {src, dest, watch} = require('gulp')
+const {src, dest, watch} = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
@@ -13,7 +13,7 @@ function bs() {
   watch("./*.html").on('change', browserSync.reload);
   watch("./sass/**/*.sass", serveSass);
   watch("./sass/**/*.scss", serveSass);
-  watch("./js/*.js").on('change', browserSync.reload);  
+  watch("./js/*.js").on('change', browserSync.reload); 
 };
 
 function serveSass() {
@@ -27,3 +27,4 @@ function serveSass() {
 };
 
 exports.serve = bs;
+
